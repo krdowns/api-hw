@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="scripts/app.js" defer></script>
+	<title>Tab Search</title>
+
+</head>
+
+<body>
+	<div class="bgv">
+		<video autoplay loop>
+			<source src="./images/bgv.mp4" type="video/mp4"></video>
+	</div>
+	<div class="content">
+		<h1>
+			Tab Search
+		</h1>
+		<div>
+			<nav class="about">
+				<button class="guitar top"><a href="#"></a></button>
+				<button class="bass top"><a href="#"></a></button>
+				<button class="drums top"><a href="#"></a></button>
+			</nav>
+		</div>
+		<div>
+			<p>
+				Welcome to Tab Search!
+				Search for thousands of tabs and chord charts in seconds.<br>
+				Enter either a song title or the artist of a song you would like to learn, and we will do the rest.
+			</p>
+		</div>
+		<div class="container">
+			<form id="bySong">
+				<input type="text" id="songSearch" name="song" value="" placeholder="Song Title">
+				<button type="submit" class="search">Search</button>
+			</form>
+			<form id="byArtist">
+				<input type="text" id="artistSearch" name="artist" value="" placeholder="Artist">
+				<button type="submit" class="search">Search</button>
+			</form>
+		</div>
+		<div>
+			<ul id="songs">
+
+			</ul>
+
+		</div>
+		<div class="results">
+			<ul class="endResult">
+
+			</ul>
+		</div>
+		<footer>
+				&copy;2018 Kenny Downs
+			</footer>
+	</div>
+
+</body>
+
+</html>
