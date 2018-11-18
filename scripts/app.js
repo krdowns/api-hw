@@ -18,7 +18,9 @@ $(document).ready(function () {
         $.ajax({
             url: songUrl,
             method: 'GET',
-            data: { get_param: 'value'},
+            data: {
+                get_param: 'value'
+            },
             dataType: 'json',
             success: function (res) {
                 $.each(res, function (key, val) {
